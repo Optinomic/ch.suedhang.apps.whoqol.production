@@ -19,7 +19,7 @@ website = http://suedhang.ch/de/Forschung
 
 [template WHOQOL 6 12]
 __opapp_include(lib/polymer/index.m4)
-__opapp_include(../com.optinomic.apps.whoqol/elements/element-whoqol.html)
+__opapp_include(com.optinomic.apps.whoqol/elements/element-whoqol.html)
 __opapp_include(elements/view.html)
 
 [readme]
