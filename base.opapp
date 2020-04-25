@@ -7,6 +7,7 @@ version = __opapp_version()
 type = patient
 
 [description]
+Beurteilung der Physischen und Psychischen Lebensqualität.
 
 [developer]
 first_name = Nora
@@ -17,10 +18,10 @@ company = Suedhang
 phone = +41 (0)31 828 14 92
 website = http://suedhang.ch/de/Forschung
 
+
 [template WHOQOL 6 12]
-__opapp_include(lib/polymer/index.m4)
-__opapp_include(com.optinomic.apps.whoqol/elements/element-whoqol.html)
-__opapp_include(elements/view.html)
+__opapp_include(optinomic_lib/dist/templates/ch.suedhang.apps.whoqol.html)
+
 
 [readme]
 __opapp_include(readme.md)
